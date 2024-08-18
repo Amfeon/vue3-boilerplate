@@ -18,7 +18,7 @@ You need to use Node version ^20.9.0 or higher.
 ## Install
 
 ```
-git clone https://github.com/Amfeon/vue-boilerplate
+git clone https://github.com/Amfeon/vue-boilerplate.git
 ```
 
 then

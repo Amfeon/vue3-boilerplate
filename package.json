@@ -4,12 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --config='vite.dev.config.js'",
-    "build": "vite build --config='vite.prod.config.js'",
-    "preview": "vite preview --config='vite.prod.config.js'"
+    "dev": "vite ",
+    "build": "vite build ",
+    "preview": "vite preview "
   },
   "dependencies": {
-    "vue": "^3.4.37"
+    "vue": "^3.4.37",
+    "vue-router": "^4.4.3"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.1.2",

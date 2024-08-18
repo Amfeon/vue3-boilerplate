@@ -1,12 +1,12 @@
-<script setup>
-
-</script>
-
 <template>
-  <h1>hello</h1>
+  <NavigationComponent/>
+  <div class="container">
+    <RouterView/>
+  </div>
+
 
 </template>
+<script setup>
 
-<style scoped>
-
-</style>
+import NavigationComponent from "./common/header/NavigationComponent.vue";
+</script>

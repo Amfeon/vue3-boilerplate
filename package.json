@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite --mode='dev'",
     "build": "vite build ",
-    "preview": "vite preview "
+    "preview": "vite preview ",
+    "eslint:fix": "eslint --fix"
   },
   "dependencies": {
     "vue": "^3.4.37",

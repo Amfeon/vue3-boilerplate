@@ -3,6 +3,6 @@ import { routes } from '@/routes/routesList.js'
 
 
 export const router = createRouter({
-    history: createMemoryHistory(),
-    routes,
+  history: createMemoryHistory(),
+  routes
 })

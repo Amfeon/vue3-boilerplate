@@ -7,7 +7,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 export default ({ mode }) => {
   const plugins = [vue()]
 
-  if(mode==='dev'){
+  if (mode === 'dev') {
     plugins.push(vueDevTools())
   }
 
@@ -17,7 +17,7 @@ export default ({ mode }) => {
       alias: {
         'vue': 'vue/dist/vue.esm-bundler.js',
         '@': resolve(__dirname, 'src'),
-        '~@': resolve(__dirname, 'src'),
+        '~@': resolve(__dirname, 'src')
       }
     }
   })

@@ -8,5 +8,5 @@
 </template>
 <script setup>
 
-import NavigationComponent from "./common/header/NavigationComponent.vue";
+import NavigationComponent from './common/header/NavigationComponent.vue';
 </script>

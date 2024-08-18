@@ -1,6 +1,8 @@
 # Vue 3 boilerplate for rapid start.
 
-This is a very common Vue template with installed eslint and prettier. You need to use Node ^20.9.0
+This is a very common Vue template with installed base Vue's ecosystem, eslint and prettier.
+
+You need to use Node ^20.9.0.
 
 ## Stack
 
@@ -9,7 +11,7 @@ This is a very common Vue template with installed eslint and prettier. You need 
 - [Vue Router](https://router.vuejs.org/)
 - [eslint (flat config)](https://eslint.org/)
 - prettier
-
+- [VueDevToolsPlugin](https://devtools.vuejs.org/)
 
 ## Install
 

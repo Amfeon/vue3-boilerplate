@@ -1,0 +1,19 @@
+{
+  "name": "vue-template-for-experiments",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --config='vite.dev.config.js'",
+    "build": "vite build --config='vite.prod.config.js'",
+    "preview": "vite preview --config='vite.prod.config.js'"
+  },
+  "dependencies": {
+    "vue": "^3.4.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.2",
+    "vite": "^5.4.1",
+    "vite-plugin-vue-devtools": "^7.3.8"
+  }
+}

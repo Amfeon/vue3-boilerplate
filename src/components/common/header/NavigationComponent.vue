@@ -12,5 +12,8 @@
 </script>
 
 <style scoped>
-
+nav{
+  display: flex;
+  gap: .5rem;
+}
 </style>

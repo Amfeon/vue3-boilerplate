@@ -15,10 +15,12 @@ export default ({ mode }) => {
     plugins,
     resolve: {
       alias: {
-        'vue': 'vue/dist/vue.esm-bundler.js',
         '@': resolve(__dirname, 'src'),
         '~@': resolve(__dirname, 'src')
       }
+    },
+    optimizeDeps: {
+      include: ['vue']
     }
   })
 }
